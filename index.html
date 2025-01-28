@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WRC Car Show</title>
+    <link rel="icon" href="img/favicon.ico" >
+    <title>WRC</title>
     
 </head>
 <body>
@@ -19,7 +20,7 @@
         
         <div class="car-card">
             <div id="svgzoom"></div>
-            <img src="img/hyundai.jpg" alt="Car 1" class="img1">
+            <img src="img/hyundai.jpg" class="img1">
             <svg id="svg1" mlns="http://www.w3.org/2000/svg"
                 width="25mm" height="25mm"
                 viewBox="0 0 800 800">
@@ -113,7 +114,7 @@
         </div>
 
         <div class="car-card">
-            <img src="img/toyota.jpg" alt="Car 2">
+            <img src="img/toyota.jpg">
             <svg id="svg2" xmlns="http://www.w3.org/2000/svg"
                  width="25mm" height="25mm"
                  viewBox="0 0 800 800">
@@ -207,7 +208,7 @@
         </div>
 
         <div class="car-card">
-            <img src="img/ford.png" alt="Car 3">
+            <img src="img/ford.png" >
             <svg id="svg3"xmlns="http://www.w3.org/2000/svg"
                  width="100mm" height="100mm"
                  viewBox="100 100 900 1000">
@@ -302,7 +303,8 @@
         </div>
         
         <div class="car-card">
-            <img src="img/skoda.png" alt="Car 3">
+            <img src="img/skoda.png">
+            <canvas id="canvas1"></canvas>
             <div class="car-info">
                 <h3>Skoda Fabia Rally2</h3>
                 <p>
@@ -314,7 +316,8 @@
         </div>
 
         <div class="car-card">
-            <img src="img/toyota2.png" alt="Car 3">
+            <img src="img/toyota2.png" >
+            <canvas id="canvas2"></canvas>
             <div class="car-info">
                 <h3>Toyota GR Yaris Rally2</h3>
                 <p>
@@ -326,7 +329,9 @@
         </div>
 
         <div class="car-card">
-            <img src="img/citroen.jpg" alt="Car 3">
+            <img src="img/citroen.jpg">
+            <canvas id="canvas3"></canvas>
+            <script src="script.js"></script>
             <div class="car-info">
                 <h3>Citroen C3 Rally2</h3>
                 <p>
@@ -340,7 +345,38 @@
         
     </div>
 </section>
-<div id="footer">
-</div>
+<footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="img/logo.png" alt="" id="logo2">
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Imprint</a></li>
+          <li><a href="#">Cookie Settings</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Accreditation</a></li>
+          <li><a href="#">Media Room</a></li>
+          <li><a href="#">Broadcast Guide</a></li>
+          <li><a href="#">Partners & Advertising</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/WorldRally/"><img src="img/facebook.png" alt="Facebook" id="facebook"/></a>
+          <a href="https://x.com/OfficialWRC"><img src="img/twitter.png" alt="Twitter" id= "twitter" /></a>
+          <a href="https://www.instagram.com/officialwrc/"><img src="img/instagram.png" alt="Instagram" id="instagram"/></a>
+          <a href="https://www.youtube.com/@wrc"><img src="img/youtube.png" alt="YouTube" id="youtube"/></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 World Rally Championship.</p>
+    </div>
+  </footer>
 </body>
 </html>
