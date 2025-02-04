@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: Wrc;
-    src: url(fonts/WRCCleanRoman.ttf);
+    src: url(font/WRCCleanRoman.ttf);
 }
 @font-face {
     font-family: WrcBold;
-    src: url(fonts/WRCCleanBold.ttf);
+    src: url(font/WRCCleanBold.ttf);
 }
 body {
     background-color: #f4f4f4;
