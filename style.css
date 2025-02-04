@@ -196,17 +196,11 @@ footer {
   color: #FC4C02;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-  color: #ccc;
-}
 #canvas1{
     height: 10%;
     width: 16%;
     position: absolute;
-    top:32%;
+    top:31%;
     left: 35%;
     rotate: -10deg;
     z-index: 2;  
@@ -223,7 +217,7 @@ footer {
     height: 7%;
     width: 13%;
     position: absolute;
-    top:35%;
+    top:33%;
     left: 55%;
     z-index: 2;  
 }
@@ -231,4 +225,43 @@ footer {
     height: 4%;
     width: 4%;
     margin-right: 1%;
+}
+.navbar {
+    background-color: #202A44;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.navbar li {
+    margin: 0; 
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px; 
+    display: block; 
+    transition: background-color 0.3s ease;
+}
+
+
+.navbar a:hover {
+    background-color: #FC4C02; 
+    color: #fff; 
+}
+
+.car-info p{
+    line-height: 1.5;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.popup {
+    font-family: 'Arial', sans-serif !important;
 }

@@ -106,3 +106,10 @@ canvases.forEach((canvas, index) => {
   const color = colors[index]; 
     drawOnCanvas(canvas, color);
 });
+
+document.getElementById('logo').addEventListener('click', function(e){
+  Swal.fire({
+      html:"Avtor: Gašper Manfreda <br> Razred: 4.RA <br> ERŠ Nova Gorica",
+      icon: "info",
+    });
+});
